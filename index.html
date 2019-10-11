@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="M_Adnan">
-<title>ADT's & Algorithms Visualizer</title>
+<title>Data Structures & Algorithms Visualizer</title>
 
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -15,6 +15,7 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="fonts/flaticon.css" rel="stylesheet">
 <link href="css/ionicons.min.css" rel="stylesheet">
+
 
 <!-- JavaScripts -->
 <script src="js/modernizr.js"></script>
@@ -42,19 +43,38 @@
     <div id="particles-js"></div>
     <div class="position-center-center">
       <div class="container text-center">
-        <h1>Basic ADTs & Algorithms Visualizer</h1>
-        <p>To learn, visualize and test basic ADT’s and algorithms. </p> 
+        <h1>Data Structures & Algorithms Visualizer</h1>
+        <p>To learn, visualize and test basic data structures and algorithms. </p> 
     </div>
   </section>
 
+<section>
+  <center>
+    <p>
+      <button onclick="addCol()">Insert</button> <input type="text"  id="add" value ="Please enter a multiple of 10" maxlength="3"/>
+    </p>
+    
+    <p>
+      <button onclick="find()">Search</button> <input type="text"  id="inp" /> 
+    </p>
+
+  </p><input type="checkbox" size = 40px id="isLinear"></input></p>
 
 
-<script src="js/jquery-1.11.3.min.js"></script> 
+</center>
+
+<table border="0" width="50%" class="area" id="row">
+  </table>
+</section>
+
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/particles.min.js"></script> 
 <script src="js/jquery.counterup.min.js"></script> 
 <script src="js/jquery.sticky.js"></script> 
 <script src="js/jquery.magnific-popup.min.js"></script> 
+<script src="algorithms/binarysearch/search.js"></script>
+<script src="algorithms/binarysearch/page.js"></script>
 </body>
 </html>
 

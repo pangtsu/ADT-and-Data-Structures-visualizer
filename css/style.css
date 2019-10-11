@@ -131,7 +131,116 @@ section {
 }
 
 
+.area {
+	padding:30px;
+	border:1px;
+	margin-top:20px;
+	margin-bottom:20px;
+	width:100%;
+}
 
+.area tr td {
+	width:20px;
+	height:20px;
+	padding:5px;
+	color: #fff;
+	
+}
+
+input[type="text"] {
+	width: 600px;
+	height: 40px;
+	font-size: 20px;
+	margin: 0px;
+	padding: 10px;
+}
+
+button {
+	width: 100px;
+	height: 40px;
+	border: 0px;
+	background-color: #F2BE45;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+.custom {
+	width: 50px;
+	text-align: center;
+	color: #fff;
+	background-color: #BACAC6;
+	font-size: 18px;
+}
+
+
+@-webkit-keyframes focus-fade { 
+	0% {
+		background: #f3f3f3;
+	}
+	100% {
+		background:#000;
+	}
+}
+
+@keyframes focus-fade { 
+	0% {
+		background: #f3f3f3;
+	}
+	100% {
+		background:#000;
+	}
+}
+
+
+.focus {
+	background-color: #D1D9E0;
+}
+
+
+.selected {
+	background-color: #EDD1D8;
+}
+
+#bigotable tr td {
+	padding:10px;
+}
+
+#maintable {
+border:1px solid #000;
+}
+
+#maintable {
+border:1px solid #000;
+}
+#maintable tr:nth-child(odd) td{
+	background-color: #fff;
+	height:40px;
+	vertical-align: top;
+}
+#maintable tr:nth-child(even) td{
+	background-color: #eff1f4;
+	height:40px;
+	vertical-align: top;
+}
+
+
+.text-shadow {
+	text-shadow: 3px 0px 5px rgba(0,0,0,0.5);
+}
+.text-shadow-1 {
+	text-shadow: 2px 3px 0 rgba(0,0,0,0.5);
+}
+
+.position-center-center {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
 
 
 a:hover {
