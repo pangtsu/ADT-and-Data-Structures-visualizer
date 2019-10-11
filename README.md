@@ -2,7 +2,7 @@
 **Site under Construction**
 - Demo Page: https://pangtsu.github.io/Data-Structure-and-Algorithms-Visualizer/index.html
 
-Check List:
+Check List (updating weekly):
 
 - Binary Search ☑️
 - Binary Search Tree
