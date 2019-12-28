@@ -1,3 +1,4 @@
+// Contributors: Jiawen Lin, Xin Yang
 // define the list
 
 var array = []
